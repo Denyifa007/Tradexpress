@@ -1,0 +1,99 @@
+#steps {
+  background-color: #f2f2f2;
+  
+}
+#steps h2 {
+  text-align: center;
+  padding-top: 8rem;
+  color: black;
+}
+#one {
+  margin-top: 3rem;
+  width: 39px;
+  height: 39px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  padding: 7px;
+  padding-left: 14px;
+  font-size: 20px;
+  box-shadow: 4px 7px 5px #8a5ea9;
+  position: absolute;
+}
+#account-one {
+  margin-top: 3rem;
+  padding-left: 4rem;
+  
+}
+#account-one h5{
+    color: black;
+}
+#account-one p{
+    padding-right: 2rem;
+}
+#two {
+  margin-top: 3rem;
+  width: 39px;
+  height: 39px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  padding: 7px;
+  padding-left: 14px;
+  font-size: 20px;
+  box-shadow: 4px 7px 5px #8a5ea9;
+  position: absolute;
+}
+#account-two {
+  margin-top: 3rem;
+  padding-left: 4rem;
+  
+}
+#account-two h5{
+    color: black;
+}
+#account-two p{
+    padding-right: 2rem;
+}
+#three {
+  margin-top: 3rem;
+  width: 39px;
+  height: 39px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  padding: 7px;
+  padding-left: 14px;
+  font-size: 20px;
+  box-shadow: 4px 7px 5px #8a5ea9;
+  position: absolute;
+}
+#account-three {
+  margin-top: 3rem;
+  padding-left: 4rem;
+  
+}
+#account-three h5{
+    color: black;
+}
+#account-three p{
+    padding-right: 2rem;
+}
+#image1{
+    width: 25rem;
+    height: 20rem;
+    background-color: #f2f2f2;
+    
+}
+#row-one{
+    padding-top: 5rem;
+}
+#row-two{
+    padding-top: 5rem;
+}
+#image3{
+  margin-bottom: 7rem;
+}

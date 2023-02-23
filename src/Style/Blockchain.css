@@ -1,0 +1,27 @@
+.innerdata{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    
+}
+.innerdatas{
+    width: 300px;
+    box-shadow: 0 8px 11px rgb(112, 112, 112, 0.21);
+    background: #f7f7fa;
+    padding: 2rem 1rem;
+}
+.btc{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btc h4{
+    color: black;
+    font-weight: 600;
+}
+#usd{
+    margin-top: 2rem;
+    font-size: 20px;
+}

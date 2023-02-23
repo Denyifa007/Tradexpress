@@ -1,0 +1,17 @@
+#footers{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding-top:4rem;
+}
+#arrowup{
+    position: fixed;
+    z-index: 1;
+}
+#arrowup a{
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    display: block;
+
+}

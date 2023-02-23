@@ -1,0 +1,132 @@
+#foot{
+    padding-top: 5rem;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#foot h2{
+    color: black;
+}
+#union1{
+    margin-left: 1rem;
+    width: 23rem;
+}
+#union2{
+    margin-left: 1rem;
+    width: 23rem;
+}
+#union3{
+    margin-left: 1rem;
+    width: 23rem;
+}
+#customer{
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#colom1{
+    position: relative;
+    left: -21rem;
+    bottom: 4rem;
+}
+#colom2{
+    position: relative;
+    left: -21rem;
+    bottom: 4rem;
+   
+}
+#colom3{
+    position: relative;
+    left: -21rem;
+    bottom: 4rem;
+   
+}
+#pcolom1{
+    position: relative;
+    left: 5.5rem;
+    bottom: 10rem;
+    width: 16rem;
+    color: white;
+
+}
+#pcolom2{
+    position: relative;
+    left: 5.5rem;
+    bottom: 10rem;
+    width: 16rem;
+    color: white;
+
+}
+#pcolom3{
+    position: relative;
+    left: 5.5rem;
+    bottom: 10rem;
+    width: 16rem;
+    color: white;
+
+}
+#abiodun{
+    border-radius: 100%;
+    width: 9rem;
+    height: 8rem;
+}
+#denyifa{
+    border-radius: 100%;
+    width: 9rem;
+    height: 8rem;
+}
+#praise{
+    border-radius: 100%;
+    width: 9rem;
+    height: 8rem;
+  
+}
+#abinaija{
+    position: relative;
+    top: -5.5rem;
+    right: 7rem;
+    
+}
+#abidetails{
+    position: absolute;
+    left: 18rem;
+    top: 2rem;
+    
+}
+#abinaija{
+    position: relative;
+    top: -6.5rem;
+    right: 8rem;
+    
+}
+#abidetails{
+    position: absolute;
+    left: 18rem;
+    top: 2rem;
+    
+}
+#denusa{
+    position: relative;
+    top: -3.5rem;
+    right: 8rem;
+    
+}
+#denyifadetails{
+    position: absolute;
+    left: 18rem;
+    top: 2rem;
+    
+}
+#pranaija{
+    position: relative;
+    top: -5rem;
+    right: 8rem;
+    
+}
+#details{
+    position: absolute;
+    left: 18rem;
+    top: 2rem;
+    
+}
