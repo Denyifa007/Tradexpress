@@ -130,3 +130,98 @@
     top: 2rem;
     
 }
+@media screen and (max-width:468px){
+    #foot h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+    }
+    #customer{
+        margin-top: 4rem;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    #colom1{
+        position: relative;
+        left: -9rem;
+        bottom: 11rem;
+    }
+    #colom2{
+        position: relative;
+        left: -9rem;
+        bottom: 11rem;
+       
+    }
+    #colom3{
+        position: relative;
+        left: -9rem;
+        bottom: 11rem;
+       
+    }
+    #pcolom1{
+        position: relative;
+        left: 5.5rem;
+        bottom: 12rem;
+        width: 16rem;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+    
+    }
+    #pcolom2{
+        position: relative;
+        left: 5.5rem;
+        bottom: 12rem;
+        width: 16rem;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+    #pcolom3{
+        position: relative;
+        left: 5.5rem;
+        bottom: 12rem;
+        width: 16rem;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+    #union1{
+        margin-left: 0rem;
+        width: 23rem;
+    }
+    #union2{
+        margin-left: 0rem;
+        width: 23rem;
+    }
+    #union3{
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 23rem;
+    }
+    #abinaija{
+        position: relative;
+        top: -8rem;
+        right: 7rem;
+        
+    }
+    #denusa{
+        position: relative;
+        top: -5rem;
+        right: 7rem;
+        
+    }
+    #pranaija{
+        position: relative;
+        top: -6rem;
+        right: 7rem;
+        
+    }
+   
+
+}

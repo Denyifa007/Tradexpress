@@ -15,3 +15,18 @@
     display: block;
 
 }
+@media(max-width:600px){
+    #footers{
+        background-color: #FFFFFF;
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+        padding-top:4rem;
+    }
+    #footers h5{
+        padding-top: 1rem;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+}

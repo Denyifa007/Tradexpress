@@ -82,3 +82,100 @@
     border-radius: 4px;
     border: 2px solid gray;
 }
+@media screen and (max-width:468px) {
+    #Crypto h2{
+        text-align: center;
+        padding-top: 8rem;
+        color: black;
+        font-size: 26.5px;
+    }
+    #col1{
+        width: 330px;
+        height: 400px;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        text-align: center;
+        color: black;
+        margin-left: 1.3rem; 
+        margin-bottom: 1rem; 
+    }
+    #col2{
+        width: 330px;
+        height: 400px;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        text-align: center;
+        color: black; 
+        margin-top: 1rem;
+        margin-left: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    #col3{
+        width: 330px;
+        height: 400px;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        text-align: center;
+        color: black; 
+        margin-left: 1.3rem;
+        margin-top: 1rem;
+    }
+    #img1{
+        width: 280px;
+        height: 150px;
+        padding-left: 2.5rem;
+        padding-top: 1rem;
+       
+    }
+    #img3{
+        width: 260px;
+        height: 150px;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    }
+    #img2{
+        width: 250px;
+        height: 150px;
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        
+    }
+    #col1 p{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 1rem 1.5rem 0 1.5rem;
+    }
+    #col2 p{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 1rem 1rem 0 1rem;
+    }
+    #col3 p{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 1rem 1.5rem 0 1.5rem;
+    }
+  
+    #col3 h5{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #col1 h5{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    #col2 h5{
+        font-size: 29px;
+        font-weight: 700;
+    }
+    #learmore{
+        margin-top: 6rem;
+        margin-left: 3.5rem;
+        width: 16rem;
+        padding: 7px;
+        border-radius: 4px;
+        border: 2px solid gray;
+        font-size: 18px;
+    }
+
+}

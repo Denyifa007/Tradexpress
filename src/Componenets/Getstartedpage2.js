@@ -1,19 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../Style/Getstartedpage.css";
+import React from 'react'
+import { Link } from 'react-router-dom';
+// import "../Style/Getstartedpage2.css";
 
-const Getstartedpage = () => {
+const Getstartedpage2 = () => {
   return (
     <div id="body">
-      <div id="innertext">
+           <div id="innertext">
         <h2>Welcome!</h2>
       </div>
       <div id="btntext">
-        <Link to="Getstartedpage2">
-          <button id="btn-in">
-            <button id="btn-inner">Indivdual</button>Business
-          </button>
-        </Link>
+        <button id="btn-in">Indivdual
+          <button id="btn-inner">Business</button>
+        </button>
       </div>
       <div id="form">
         <form id="inputfield" action="text">
@@ -33,13 +31,11 @@ const Getstartedpage = () => {
         </p>
         <button id="btn-sign">Sign Up</button>
         <div id="click">
-          <p>
-            Already have an account ?<Link to='/'><span className="ch">Click here</span></Link> 
-          </p>
+        <p>Already have an account ?,<Link to='/'><span className="ch">Click here</span></Link> </p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Getstartedpage;
+export default Getstartedpage2

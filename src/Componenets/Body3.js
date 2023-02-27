@@ -2,6 +2,7 @@ import React from "react";
 import "../Style/Body3.css";
 import applelogo from "../Assets/Icon awesome-apple-1.svg";
 import playstore from "../Assets/Group 53.svg";
+import { Link } from "react-router-dom";
 
 const Body3 = () => {
   return (
@@ -10,7 +11,7 @@ const Body3 = () => {
         <p>Ready to trade Buy/Sell cryptocurrencies in just 10 minutes?</p>
         <h2>Create your account for free and start trading today!</h2>
       </div>
-      <button id="btn-getstart">Get Started</button>
+      <Link to='Getstartedpage'><button id="btn-getstart">Get Started</button></Link>
       <div id="playstore">
         <button id="applogo">
           <div id="applelogo">

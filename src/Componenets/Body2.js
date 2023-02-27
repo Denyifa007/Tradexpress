@@ -27,7 +27,7 @@ const Body2 = () => {
         </MDBRow>
         <MDBRow id="row-two">
           <MDBCol md="5">
-            <img src={image2} alt="" />
+            <img src={image2} alt="" id="image2" />
           </MDBCol>
           <MDBCol md="7">
             <div id="two">2</div>

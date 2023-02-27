@@ -25,3 +25,24 @@
     margin-top: 2rem;
     font-size: 20px;
 }
+@media screen and (max-width:468px){
+    .innerdata{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 25rem;
+        padding: 0.8rem;
+        flex-direction: row;
+        background-color: #f7f7fa;
+        padding-left: 0rem;
+        
+    }
+    .innerdatas{
+        width: 355px;
+        box-shadow: 0 8px 11px rgb(112, 112, 112, 0.21);
+        background: #f7f7fa;
+        padding: 2rem 0.5rem;
+        font-size: 24px;
+        width: 23rem;
+    }
+
+}

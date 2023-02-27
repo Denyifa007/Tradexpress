@@ -33,35 +33,113 @@
   width: 566px;
   font: normal normal bold 48px/68px Roboto;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-#buy p{
+#buy p {
   position: absolute;
   bottom: 16rem;
   right: 40rem;
   width: 566px;
-  font:  Roboto;
+  font: Roboto;
   letter-spacing: 0px;
   color: white;
 }
-#btn-gsd{
+#btn-gsd {
+  position: absolute;
+  top: 20rem;
+  right: 55rem;
+  width: 20rem;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+#appstore {
+  position: absolute;
+  color: #ffffff;
+  top: 25rem;
+  right: 66rem;
+}
+#img7 {
+  position: absolute;
+  left: 10rem;
+}
+@media screen and (max-width: 468px){
+  /* header */
+  * {
+    overflow-x: hidden;
+  }
+  #header {
+    background: linear-gradient(50deg, #7c1fbf 30%, #470a73);
+    height: 100vh;
+    position: relative;
+  }
+  #buy h2 {
     position: absolute;
-    top: 20rem;
-    right: 55rem;
+    text-align: start;
+    top: 5rem;
+    left: 1rem;
     width: 20rem;
-    padding: 8px;
+    font: normal normal bold 32px/54px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
+  #buy p {
+    position: absolute;
+    text-align: start;
+    top: 17rem;
+    left: 1rem;
+    width: 350px;
+    font: Roboto;
+    letter-spacing: 0px;
+    color: white;
+  }
+  #btn-gsd {
+    position: absolute;
+    top: 25rem;
+    left: 1rem;
+    width: 20rem;
+    padding: 15px;
     border-radius: 5px;
     border: none;
-    font-size: 15px;
-}
-#appstore{
+    font-size: 20px;
+  }
+  #btn-gsd:hover {
     position: absolute;
-    color: #FFFFFF;
     top: 25rem;
-    right: 66rem;
-}
-#img7{
+    left: 1rem;
+    width: 20rem;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #470a73;
+  }
+  #appstore {
+    position: absolute;
+    color: #ffffff;
+    top: 33rem;
+    left: 1rem;
+    width: 35rem;
+    
+    
+  }
+  #img7 {
     position: absolute;
     left: 10rem;
+  }
+  #circle-one {
+    width: 600px;
+    height: 569px;
+    border-radius: 100%;
+    position: relative;
+    left: 10rem;
+    box-shadow: 0px 2px 3px #26093a;
+    border: 100px solid #7c20be;
+    opacity: 0.45;
+    filter: blur(0px);
+  }
+  
+  
 }
 

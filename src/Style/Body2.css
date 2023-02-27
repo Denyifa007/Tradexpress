@@ -1,6 +1,5 @@
 #steps {
   background-color: #f2f2f2;
-  
 }
 #steps h2 {
   text-align: center;
@@ -24,13 +23,12 @@
 #account-one {
   margin-top: 3rem;
   padding-left: 4rem;
-  
 }
-#account-one h5{
-    color: black;
+#account-one h5 {
+  color: black;
 }
-#account-one p{
-    padding-right: 2rem;
+#account-one p {
+  padding-right: 2rem;
 }
 #two {
   margin-top: 3rem;
@@ -49,13 +47,12 @@
 #account-two {
   margin-top: 3rem;
   padding-left: 4rem;
-  
 }
-#account-two h5{
-    color: black;
+#account-two h5 {
+  color: black;
 }
-#account-two p{
-    padding-right: 2rem;
+#account-two p {
+  padding-right: 2rem;
 }
 #three {
   margin-top: 3rem;
@@ -74,26 +71,72 @@
 #account-three {
   margin-top: 3rem;
   padding-left: 4rem;
-  
 }
-#account-three h5{
-    color: black;
+#account-three h5 {
+  color: black;
 }
-#account-three p{
-    padding-right: 2rem;
+#account-three p {
+  padding-right: 2rem;
 }
-#image1{
-    width: 25rem;
-    height: 20rem;
-    background-color: #f2f2f2;
-    
+#image1 {
+  width: 25rem;
+  height: 20rem;
+  background-color: #f2f2f2;
 }
-#row-one{
-    padding-top: 5rem;
+#row-one {
+  padding-top: 5rem;
 }
-#row-two{
-    padding-top: 5rem;
+#row-two {
+  padding-top: 5rem;
 }
-#image3{
+#image3 {
   margin-bottom: 7rem;
+}
+@media (max-width: 600px) {
+  #steps h2 {
+    text-align: center;
+    padding-top: 8rem;
+    color: black;
+    font-weight: 600;
+    padding-left: 0rem;
+  }
+  #image1 {
+    margin-top: 1rem;
+    width: 22rem;
+    height: 23rem;
+    background-color: #f2f2f2;
+  }
+  #image2{
+    width: 22rem;
+    height: 23rem;
+
+  }
+  #row-two {
+    flex-direction: column-reverse;
+    padding-top: 5rem;
+  }
+  #account-two {
+    margin-top: 1rem;
+    padding-left: 4rem;
+  }
+  #two {
+    margin-top: 1rem;
+    width: 39px;
+    height: 39px;
+    background: #7c20bf 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    padding: 7px;
+    padding-left: 14px;
+    font-size: 20px;
+    box-shadow: 4px 7px 5px #8a5ea9;
+    position: absolute;
+  }
+  #image3 {
+    margin-top: 1rem;
+    width: 22rem;
+    height: 23rem;
+    margin-bottom: 7rem;
+  }
 }
