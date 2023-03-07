@@ -1,5 +1,5 @@
 #navbar{
-    padding: 2px 3rem 2px 3rem;
+    padding: 9px 3rem 2px 1rem;
     background: linear-gradient( 50deg, #7C1FBF,#470A73);
     box-shadow: none;
 }
@@ -58,4 +58,9 @@
     color: #7C1FBF;
     font-size: 16px;
     font-weight: 500;
+}
+@media(max-width:468px){
+    .img-fluid{
+        text-align: start !important;
+    }
 }

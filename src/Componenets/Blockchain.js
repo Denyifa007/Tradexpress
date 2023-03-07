@@ -20,7 +20,7 @@ const Blockchain = () => {
   }, []);
 
   return (
-    <div className="innerdata">
+    <div className="innerdata container-fluid" >
       {Data.map((datum) => {
         const { id, symbol, percent_change_1h, price_usd } = datum;
         return (

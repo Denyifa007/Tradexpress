@@ -1,11 +1,17 @@
+.body-body{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
 #body {
   text-align: center;
   border: none;
   margin-top: 2rem;
-  width: 50rem;
-  margin-left: 15rem;
+  width: 60%;
   background-color: #fbf8fd;
   box-shadow: 0px 2px 3px #000000;
+  
+
 }
 #innertext {
   padding-top: 1rem;
@@ -13,41 +19,44 @@
 #btntext {
   padding-top: 1rem;
 }
-#btn-in {
-  width: 29rem;
-  border-radius: 6px;
-  text-align: center;
-  font: normal normal normal 20px/26px Roboto;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
+
+.btn-contents{
+  width: 80%;
+  margin: 0 auto;
   background-color: #e4e4e4;
-  border: none;
-  font-weight: 500;
-  padding: 2px;
+  padding: .1rem 0;
+  border-radius: .2rem;
+  
 }
-#btn-inner {
-  position: relative;
-  right: 5.8rem;
-  width: 12rem;
-  border-radius: 6px;
-  text-align: center;
+.btn--1{
+  width: 47%;
+  border: none;
+  margin-right: 1rem;
+  border-radius: .2rem;
+  background-color: white;
+  font-weight: 500;
+  opacity: 1;
   font: normal normal normal 18px/24px Roboto;
   letter-spacing: 0px;
   color: #000000;
-  opacity: 1;
+}
+.btn--2{
+  width: 47%;
   border: none;
-  background-color: white;
+  border-radius: .2rem;
+  background: none;
   font-weight: 500;
+  opacity: 1;
+  font: normal normal normal 18px/24px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
 }
 #inputfield {
-  width: 20rem;
+  width: 100%;
   text-align: center;
-  padding-left: 8.5rem;
 }
 #text1 {
-  width: 29rem;
-  margin-left: 2rem;
+  width: 80%;
   margin-top: 2rem;
   border-radius: 5px;
   border: 0.5px solid #e4e4e4;
@@ -58,8 +67,7 @@
   opacity: 1;
 }
 #text2 {
-  width: 29rem;
-  margin-left: 2rem;
+  width: 80%;
   margin-top: 2rem;
   border-radius: 5px;
   border: 0.5px solid #e4e4e4;
@@ -70,8 +78,7 @@
   opacity: 1;
 }
 #text3 {
-  width: 29rem;
-  margin-left: 2rem;
+  width: 80%;
   margin-top: 2rem;
   border-radius: 5px;
   border: 0.5px solid #e4e4e4;
@@ -82,8 +89,7 @@
   opacity: 1;
 }
 #text4 {
-  width: 29rem;
-  margin-left: 2rem;
+  width: 80%;
   margin-top: 2rem;
   border-radius: 5px;
   border: 0.5px solid #e4e4e4;
@@ -94,8 +100,7 @@
   opacity: 1;
 }
 #text5 {
-  width: 29rem;
-  margin-left: 2rem;
+  width: 80%;
   margin-top: 2rem;
   border-radius: 5px;
   border: 0.5px solid #e4e4e4;
@@ -110,8 +115,7 @@
 }
 #form p {
   padding-top: 1rem;
-  text-align: left;
-  padding-left: 10.5rem;
+  text-align: start;
   color: #000000;
   font-size: 18px;
   font: Roboto;
@@ -120,7 +124,7 @@
 }
 #btn-sign {
   margin-top: 2rem;
-  width: 29rem;
+  width: 80%;
   border-radius: 9px;
   padding: 8px;
   background-color: #7c20bf;
@@ -128,161 +132,84 @@
   font-size: 20px;
   border: none;
 }
-#click {
-  padding-top: 1.5rem;
-  padding-left: 6rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+.div-text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.already{
+  width: 50%;
+  margin: 0 auto;
+
+
 }
 .ch {
   cursor: pointer;
 }
-@media screen and (max-width: 486px) {
+@media(max-width:1000px){
+  .already{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
   #body {
+    text-align: center;
     border: none;
     margin-top: 2rem;
-    width: 23rem;
-    margin-left: 0.5rem;
+    width: 60%;
     background-color: #fbf8fd;
     box-shadow: 0px 2px 3px #000000;
+    padding-bottom: 4rem; 
   }
-  #innertext {
-    padding-top: 1rem;
-    margin-right: 2rem;
-  }
-  #btntext {
-    padding-top: 1rem;
-  }
-  #btn-in {
-    width: 19rem;
-    margin-right: 1rem;
-    border-radius: 6px;
-    text-align: center;
-    font: normal normal normal 20px/26px Roboto;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    background-color: #e4e4e4;
-    border: none;
-    font-weight: 500;
-    padding: 2px;
-  }
-  #btn-inner {
-    position: relative;
-    right: 2.5rem;
-    width: 8rem;
-    border-radius: 6px;
-    text-align: center;
-    font: normal normal normal 18px/24px Roboto;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    border: none;
-    background-color: white;
-    font-weight: 500;
-  }
-  #inputfield {
-    width: 20rem;
-    text-align: center;
-    padding-left: 8.5rem;
-  }
-  #text1 {
-    position: relative;
-    width: 20rem;
-    margin-top: 2rem;
-    border-radius: 5px;
-    border: 0.5px solid #e4e4e4;
-    padding: 7px;
-    font: Roboto;
-    letter-spacing: 0px;
-    color: #bbafaf;
-    opacity: 1;
-    right: 9rem;
-  }
-  #text2 {
-    width: 20rem;
-    right: 9rem;
-    position: relative;
 
-    margin-top: 2rem;
-    border-radius: 5px;
-    border: 0.5px solid #e4e4e4;
-    padding: 7px;
-    font: Roboto;
-    letter-spacing: 0px;
-    color: #bbafaf;
-    opacity: 1;
+}
+@media(max-width:680px){
+  .btn-contents{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+    padding: .1rem 0;
+    border-radius: .2rem;
+    
   }
-  #text3 {
-    position: relative;
-    width: 20rem;
-    margin-right: 5rem;
-    margin-top: 2rem;
-    border-radius: 5px;
-    border: 0.5px solid #e4e4e4;
-    padding: 7px;
-    font: Roboto;
-    letter-spacing: 0px;
-    color: #bbafaf;
-    opacity: 1;
-    right: 9rem;
+
+}
+@media(max-width:482px){
+  #body {
+    text-align: center;
+    border: none;
+    margin-top: 1rem;
+    width: 90%;
+    background-color: #fbf8fd;
+    box-shadow: 0px 2px 3px #000000;
+    padding-bottom: 0.5rem;
   }
-  #text4 {
-    position: relative;
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 5px;
-    border: 0.5px solid #e4e4e4;
-    padding: 7px;
-    font: Roboto;
-    letter-spacing: 0px;
-    color: #bbafaf;
-    opacity: 1;
-    right: 9rem;
-  }
-  #text5 {
-    position: relative;
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 5px;
-    border: 0.5px solid #e4e4e4;
-    padding: 7px;
-    font: Roboto;
-    letter-spacing: 0px;
-    color: #bbafaf;
-    opacity: 1;
-    right: 9rem;
+  .already{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
   }
   #btn-sign {
     margin-top: 2rem;
-    width: 19rem;
+    width: 85%;
     border-radius: 9px;
     padding: 8px;
     background-color: #7c20bf;
     color: white;
     font-size: 20px;
     border: none;
-    margin-right: 0rem;
   }
-  #form p {
-    padding-top: 1rem;
-    text-align: left;
-    padding-left: 1rem;
-    color: #000000;
-    font-size: 18px;
-    font: Roboto;
-    letter-spacing: 0px;
-    opacity: 1;
+
+}
+@media(max-width:320px){
+  .btn-contents{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+    padding: .1rem 0;
+    border-radius: .2rem;
+    
   }
-  #click {
-    padding-top: 1.5rem;
-    padding-left: 2rem;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-  }
-  .ch {
-    cursor: pointer;
-  }
+
 }

@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <MDBNavbar id='navbar' expand='lg'>
       <MDBContainer fluid>
-        <Link to="/"><img src={logo} alt="" /></Link>
+        <Link to="/"><img src={logo} alt="" className='img-fluid' /></Link>
         <MDBNavbarToggler
           type='button'
           data-target='#navbarRightAlignExample'

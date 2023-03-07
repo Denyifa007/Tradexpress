@@ -94,7 +94,7 @@
     color: #26093a;
     opacity: 1;
   }
-  @media(max-width:600px){
+  @media(max-width:468px){
     #ready p{
       font-size: 15px;
       font-weight: 700;
@@ -113,7 +113,7 @@
     #google{
       border-radius: 4px;
       height: 4rem;
-      width: 10.5rem;
+      width: 10rem;
       position: relative;
       background-color: white;
       margin-left: 0.5rem;

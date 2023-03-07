@@ -3,31 +3,39 @@
   height: 100vh;
   position: relative;
 }
-#circle-one {
-  width: 600px;
-  height: 569px;
+
+#innercircle1 {
+  width: 30rem;
+  height: 30rem;
   border-radius: 100%;
-  position: relative;
-  left: 21rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
   box-shadow: 0px 2px 3px #26093a;
-  border: 100px solid #7c20be;
+  border: 4rem solid #7c20be;
   opacity: 0.45;
   filter: blur(0px);
 }
-#innercircle {
-  width: 580px;
-  height: 520px;
+#innercircle2 {
+  width: 33rem;
+  height: 33rem;
   border-radius: 100%;
   position: absolute;
-  left: 15rem;
-  top: -4rem;
+  right: 18rem;
+  top: 0;
   box-shadow: 0px 2px 3px #26093a;
-  border: 100px solid #7c20be;
+  border: 4rem solid #7c20be;
   opacity: 0.45;
   filter: blur(0px);
+}
+#buy{
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  width: 20rem;
 }
 #buy h2 {
-  position: absolute;
+  
   bottom: 20rem;
   right: 40rem;
   width: 566px;
@@ -36,7 +44,6 @@
   color: #ffffff;
 }
 #buy p {
-  position: absolute;
   bottom: 16rem;
   right: 40rem;
   width: 566px;
@@ -45,7 +52,7 @@
   color: white;
 }
 #btn-gsd {
-  position: absolute;
+  
   top: 20rem;
   right: 55rem;
   width: 20rem;
@@ -53,9 +60,10 @@
   border-radius: 5px;
   border: none;
   font-size: 15px;
+  margin-bottom: 2rem;
 }
 #appstore {
-  position: absolute;
+ 
   color: #ffffff;
   top: 25rem;
   right: 66rem;
@@ -74,8 +82,13 @@
     height: 100vh;
     position: relative;
   }
-  #buy h2 {
+  #buy{
     position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 20rem;
+  }
+  #buy h2 {
     text-align: start;
     top: 5rem;
     left: 1rem;
@@ -85,7 +98,6 @@
     color: #ffffff;
   }
   #buy p {
-    position: absolute;
     text-align: start;
     top: 17rem;
     left: 1rem;
@@ -95,7 +107,6 @@
     color: white;
   }
   #btn-gsd {
-    position: absolute;
     top: 25rem;
     left: 1rem;
     width: 20rem;
@@ -105,7 +116,6 @@
     font-size: 20px;
   }
   #btn-gsd:hover {
-    position: absolute;
     top: 25rem;
     left: 1rem;
     width: 20rem;
@@ -116,7 +126,6 @@
     color: #470a73;
   }
   #appstore {
-    position: absolute;
     color: #ffffff;
     top: 33rem;
     left: 1rem;
@@ -125,20 +134,9 @@
     
   }
   #img7 {
-    position: absolute;
     left: 10rem;
   }
-  #circle-one {
-    width: 600px;
-    height: 569px;
-    border-radius: 100%;
-    position: relative;
-    left: 10rem;
-    box-shadow: 0px 2px 3px #26093a;
-    border: 100px solid #7c20be;
-    opacity: 0.45;
-    filter: blur(0px);
-  }
+
   
   
 }
